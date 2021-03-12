@@ -1,0 +1,647 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+/* Nav Bar */
+.experian{
+    width: 100px;
+}
+
+.vertical {
+    border-left: 1.5px solid black;
+    height: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    left: 50%;
+}
+
+.vertical1 {
+    border-left: 1.5px solid black;
+    height: 50px;
+    margin-left: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.vertical2 {
+    border-left: 1.5px solid black;
+    height: 50px;
+    margin-left: 670px;
+    display: inline-block;
+    left: 50%;
+}
+
+.vertical3 {
+    border-left: 1.5px solid black;
+    height: 50px;
+    margin-left: 100px;
+    display: inline-block;
+    left: 50%;
+}
+
+.nav-search{
+    color: #1e90ff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.nav-load{
+    color: #1e90ff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+.nav-case {
+    color: #1e90ff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.nav-bars {
+    color: #1e90ff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.nav-help {
+    color: #1e90ff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 210px;
+}
+
+.nav-msg {
+    color: #1e90ff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.nav-bell {
+    color: #1e90ff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 290px;
+}
+
+.nav-account{
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 330px;
+    color: #1e90ff;
+}
+
+.department{
+    width: 50px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.colln{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    color: #1e90ff;
+    font-weight: 520;
+}
+
+/* Nav bar */
+
+.upper-border{
+    margin-top: 5px;
+    border: 1px solid ;
+}
+
+.stats {
+    margin-top: 50px;
+    margin-left: 155px;
+    margin-bottom: 25px;
+}
+
+
+/* Container Info */
+.container{
+    margin-left: 50px;
+}
+
+/***********/
+.count1{
+    display: inline-block;
+}
+
+.num1{
+    font-size: 40px;
+    margin-left: 230px;
+}
+
+.promise{
+    margin-left: 175px;
+}
+/***********/
+
+/***********/
+.count2{
+    display: inline-block;
+}
+
+.num2{
+    font-size: 40px;
+    margin-left: 140px;
+}
+
+.rate{
+    margin-left: 50px;
+}
+/***********/
+
+
+/***********/
+.count3{
+    display: inline-block;
+}
+
+.num3 {
+    font-size: 40px;
+    margin-left: 75px;
+}
+
+.kept {
+    margin-left: 40px;
+}
+/***********/
+
+/***********/
+.count4{
+    display: inline-block;
+}
+
+.num4{
+    font-size: 40px;
+    margin-left: 95px;
+}
+
+.taken{
+    margin-left: 40px;
+}
+/***********/
+
+
+/***********/
+.count5{
+    display: inline-block;
+}
+
+.num5{
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.collected{
+    margin-left: 40px;
+}
+/***********/
+
+
+/***********/
+.count6{
+    display: inline-block;
+}
+
+.num6{
+    font-size: 40px;
+    margin-left: 110px;
+}
+
+.outcome{
+    margin-left: 40px;
+}
+/***********/
+
+/* End of container info */
+
+/* Search data */
+.search {
+    background-color: #fff0f5;
+    /* background-color: blue; */
+    height: 75px;
+    margin-left: 140px;
+    margin-right: 160px;
+    border-radius: 5px;
+    margin-top: 25px;
+    border: 2px solid #bfd8d5;
+}
+
+.input1 {
+    text-align: left;
+    margin-left: 225px;
+    margin-top: 22px;
+    padding: 6px;
+    padding-right: 40px;
+    /* padding-left: 25px; */
+    border-radius: 5px;
+    border: 2px solid #bfd8d5;
+}
+
+.input2 {
+    text-align: left;
+    margin-left: 15px;
+    width: 180px;
+    padding: 6px;
+    padding-right: 40px;
+    /* padding-left: 35px */;
+    border-radius: 5px;
+    border: 2px solid #bfd8d5;
+}
+
+.input3 {
+    text-align: left;
+    margin-left: 15px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid #bfd8d5;
+    width: 200px;
+}
+
+/* Removes the up/down arrow in <input>*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+/*End of it */
+
+.search-button{
+    margin-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #bfd8d5;
+}
+
+/* End of search data */
+
+.cases{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 140px;
+    display: inline-block;
+}
+
+.view{
+    display: inline-block;
+    padding: 10px 20px 10px;
+    font-weight: 550;
+    border-radius: 5px;
+    border: 2px solid #1e90ff;
+    color: #1e90ff;
+    margin-left: 1010px;
+    margin-bottom: 30px;
+}
+
+
+/* Cards */
+
+/*Richard Hedges */
+.RH{
+    border: 2px solid #bfd8d5;
+    margin-left: 140px;
+    margin-right: 180px;
+    position: relative;
+    border-radius: 5px;
+    width: 15%;
+    background-color: #fff;
+    display: inline-block;
+}
+
+ .RH-user{
+    background-color: #bfd8d5;
+} 
+
+.richard{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.RH-id{
+    margin-left: 10px;
+    margin-top: 2px ; 
+}
+
+.RH-related{
+    padding-left: 10px;
+    color: #1e90ff;
+    padding-bottom: 10px;
+}
+
+.RH-img{
+    top: 6px;
+    margin-left: 180px;
+    float: right;
+    position: absolute;
+    width: 50px;
+}
+.RH-details{
+    line-height: 25px;
+}
+.RH-balance{
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.RH-recover {
+    margin-right: 55px;
+    padding-left: 10px;
+}
+
+.RH-netrecover {
+    margin-right: 25px;
+    padding-left: 10px;
+}
+
+.RH-arrange{
+    padding-left: 10px;
+    font-family: "Open Sans",
+    sans-serif;
+}
+
+.RH-newarr{
+    color: #1e90ff;
+}
+
+.RH-day{
+    padding-left: 15px;
+}
+
+.RH-martin{
+    padding: 15px;
+    font-family: "Open Sans",
+    sans-serif;
+}
+
+/*End of richards */
+
+/* Christine */
+
+    .CK{
+        border: 2px solid #bfd8d5;
+        margin-left: -80px;
+        margin-right: 180px;
+        position: relative;
+        border-radius: 5px;
+        width: 15%;
+        background-color: #fff;
+        display: inline-block;
+    }
+
+    .CK-user{
+        background-color: #bfd8d5;
+    }
+
+    .CK-img {
+        top: 6px;
+        margin-left: 180px;
+        float: right;
+        position: absolute;
+        width: 50px;
+    }
+
+    .chris {
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 2px;
+    }
+
+    .CK-id {
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    .CK-related {
+        padding-left: 10px;
+        color: #1e90ff;
+        padding-bottom: 10px;
+    }
+
+    .CK-credit{
+        padding-left: 10px;
+    }
+
+    .CK-request{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: #1e90ff;
+    }
+
+    .CK-details {
+        line-height: 25px;
+    }
+
+    .CK-balance {
+        margin-right: 50px;
+        padding-left: 10px;
+    }
+
+    .CK-recover {
+        margin-right: 55px;
+        padding-left: 10px;
+    }
+
+    .CK-netrecover {
+        margin-right: 25px;
+        padding-left: 10px;
+    }
+
+    .CK-time{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .CK-adam{
+        padding: 15px;
+        font-family: "Open Sans",
+        sans-serif;
+    }
+
+/*End of Christine */
+
+/*David */
+.DL {
+    border: 2px solid #bfd8d5;
+    margin-left: -90px;
+    margin-right: 100px;
+    position: relative;
+    border-radius: 5px;
+    width: 15%;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.DL-user{
+    background-color: #bfd8d5;
+}
+
+.david {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.DL-img {
+    top: 6px;
+    margin-left: 180px;
+    float: right;
+    position: absolute;
+    width: 50px;
+}
+
+.DL-id {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.DL-related {
+    padding-left: 10px;
+    color: #1e90ff;
+    padding-bottom: 10px;
+}
+
+.DL-details {
+    line-height: 25px;
+}
+
+.DL-balance {
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.DL-recover {
+    margin-right: 55px;
+    padding-left: 10px;
+}
+
+.DL-netrecover {
+    margin-right: 25px;
+    padding-left: 10px;
+}
+
+.DL-credit {
+    padding-left: 10px;
+}
+
+.DL-request {
+    color: #1e90ff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.DL-time {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.DL-carrie{
+    padding: 15px;
+}
+
+
+/*End of David*/
+
+/*Chole */
+.CS {
+    border: 2px solid #bfd8d5;
+    position: relative;
+    border-radius: 5px;
+    width: 15%;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.CS-user {
+    background-color: #bfd8d5;
+}
+
+.CS-img {
+    top: 6px;
+    margin-left: 180px;
+    float: right;
+    position: absolute;
+    width: 50px;
+}
+
+.chole {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.CS-id {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.CS-related {
+    padding-left: 10px;
+    color: #1e90ff;
+    padding-bottom: 10px;
+}
+
+.CS-details {
+    line-height: 25px;
+}
+
+.CS-balance {
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.CS-recover {
+    margin-right: 55px;
+    padding-left: 10px;
+}
+
+.CS-netrecover {
+    margin-right: 25px;
+    padding-left: 10px;
+}
+
+.CS-credit {
+    padding-left: 10px;
+}
+
+.CS-request {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #1e90ff;
+}
+
+
+.CS-time {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.CS-michel{
+    padding: 15px;
+}
+
+/*End of Chole*/
